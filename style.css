@@ -1,37 +1,40 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
-    padding: 20px;
-    width: 100%;
-    background-color: rgb(112, 149, 208);
+	padding: 20px;
+	background-color: rgb(112, 149, 208);
 }
 
-nav > .nav-contents {
-    margin-right: auto;
-    display: inline;
+nav > a,
+nav > a {
+	margin: 5px;
+	color: rgb(235, 240, 255);
+	text-decoration: none;
+	font-size: 1.1em;
 }
 
-nav > .nav-contents > a, nav > a {
-    margin: 5px;
-    color: rgb(235, 240, 255);
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
-nav > .nav-contents > a.selected {
-    font-weight: bold;
+nav > a.selected {
+	font-weight: bold;
 }
 
 nav > a.main {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-right: 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-right: 15px;
 }
 
-nav > .nav-contents > a:hover {
-    color: white;
+nav > a:hover {
+	color: white;
+}
+
+footer {
+    width: 100vw;
+    padding: 10px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
 }
