@@ -50,10 +50,6 @@ main {
 	margin: auto;
 }
 
-ul {
-	list-style-position: inside;
-} 
-
 #timeForYou {
 	font-family: 'Courier New', Courier, monospace;
 	border-radius: 2px;
